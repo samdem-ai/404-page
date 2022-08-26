@@ -1,0 +1,153 @@
+.title-page{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 1.25vw;
+    margin-top: 3%;
+    margin-left: 14%;
+}
+
+.mContainer{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ScareCrow-img{
+    display: block;
+    max-width: 29vw;
+    height: 50%;
+    
+}
+
+.container{
+    width: 43%;
+}
+
+
+.title, .content{
+    margin-top: 0;
+    font-family:'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 3.3vw;
+    line-height: 94.78px;
+    
+}
+
+.content{
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 1.25vw;
+    /* font-size: 24px;*/
+    line-height: 35.54px;
+    width: 62%;
+}
+
+.btn{
+    margin-top: 5vh;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: white;
+    background-color: #333333;
+    width: 35%;
+    height: 7vh;
+    transition: all .5s;
+
+}
+
+.btn:hover{
+    background-color: rgba(51, 51, 51,.5);
+    border: none;
+    color: #1c1b1b;
+}
+
+@media (max-width:1440px) {
+    .ScareCrow-img{
+        max-width: 35vw;
+    }
+
+}
+
+
+@media (max-width:1232px) {
+    .title-page{
+        font-size: 2vw;
+    }
+    .btn{
+        width: 160px;
+        height: 8vh;
+    }
+}
+
+
+@media (max-width:1210px) {
+    .ScareCrow-img{
+        width: 29vw;
+    }
+    .content{
+    line-height: 3vw; 
+    }
+    .title{
+        line-height: 5vw;
+    }
+}
+
+@media (max-width:850px) {
+    .title-page{
+        font-size: 3vw;
+    }
+    .title{
+        font-size: 4vw;
+    }
+    .content{
+        font-size: 1.7vw;
+    }
+
+    .container{
+        width: 50%;
+    }
+}
+
+
+@media (max-width:800px) {
+    .title-page{
+        font-size: 5vw;
+        margin-left: 5%;
+    }
+    .ScareCrow-img{
+        display: inline-block;
+        min-width: 35vh;
+    }
+    .mContainer{
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 9vw;
+        line-height: 12vw;
+    }
+
+    .content{
+        width: 80%;
+        font-size: 3.5vw;
+        line-height: 6vw;
+    }
+
+    .btn{
+        font-size: 2.7vw;
+        width: 40vw;
+        height: 7vh;
+    }
+
+
+
+}
