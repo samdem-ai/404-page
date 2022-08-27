@@ -4,6 +4,7 @@
     font-size: 1.25vw;
     margin-top: 3%;
     margin-left: 14%;
+    transition: all .5s;
 }
 
 .mContainer{
@@ -15,13 +16,14 @@
     margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .ScareCrow-img{
     display: block;
     max-width: 29vw;
     height: 50%;
-    
+    transition: all .5s;
 }
 
 .container{
@@ -35,7 +37,7 @@
     font-weight: 700;
     font-size: 3.3vw;
     line-height: 94.78px;
-    
+    transition: all .5s;
 }
 
 .content{
