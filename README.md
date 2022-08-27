@@ -8,12 +8,8 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="http://samdem-ai.github.io/404-page/">
       Demo
-    </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
@@ -56,7 +52,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://samdem-ai.github.io/personalSite/)
-- GitHub [@your-username](https://{github.com/samdem-ai})
-- Twitter [@your-twitter](https://{twitter.com/samdem24})
+- Website (https://samdem-ai.github.io/personalSite/)
+- GitHub [@samdem-ai](https://{github.com/samdem-ai})
+- Twitter [@samdem24](https://{twitter.com/samdem24})
 # 404-page
